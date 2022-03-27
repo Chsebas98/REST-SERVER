@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://www.opc-router.com/wp-content/uploads/2020/04/icon_rest_webservice_600x400px.png" alt="REST SERVER"></a>
 </p>
 
 <h3 align="center">REST SERVER</h3>
@@ -65,10 +65,6 @@ npm install
 ```
 
 Dentro de la carpeta del proyecto
-
-```
-until finished
-```
 
 ## 🚀 Uso <a name="usage"></a>
 
