@@ -1,20 +1,29 @@
 {
-	"name": "04-rest-server",
-	"version": "1.0.0",
-	"description": "",
-	"scripts": {
-		"dev": "nodemon app.js",
-		"start": "node app.js"
-	},
-	"keywords": [],
-	"author": "Sebastián Soberón",
-	"license": "ISC",
-	"dependencies": {
-		"bcryptjs": "^2.4.3",
-		"cors": "^2.8.5",
-		"dotenv": "^16.0.0",
-		"express": "^4.17.3",
-		"express-validator": "^6.14.0",
-		"mongoose": "^6.2.8"
-	}
+  "name": "04-rest-server",
+  "version": "1.0.0",
+  "description": "Mi rest server creado para tener base para todos los proyectos futuros que vaya a hacer con node",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express-validator": "^6.14.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chsebas98/REST-SERVER.git"
+  },
+  "author": "Sebastián Soberón",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chsebas98/REST-SERVER/issues"
+  },
+  "homepage": "https://github.com/Chsebas98/REST-SERVER#readme"
 }
