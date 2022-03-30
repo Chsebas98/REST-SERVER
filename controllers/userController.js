@@ -1,7 +1,7 @@
 const { response, request } = require("express");
 const Usuario = require("../models/Usuario");
 const bcrypt = require("bcryptjs");
-const usuariosGet = async (req, res) => {
+const usuariosGet = async (req, res = response) => {
 	/* const query = req.query; */
 	const { limite = 5, desde = 0 } = req.query;
 	/* 	const usuarios = await Usuario.find({ estado: true })
@@ -27,7 +27,7 @@ const usuariosPost = async (req, res = response) => {
 	//console.log(usuario);
 	res.json({ usuario });
 };
-const usuariosPut = async (req, res) => {
+const usuariosPut = async (req, res = response) => {
 	const { id } = req.params;
 	const { password, google, correo, _id, ...resto } = req.body;
 
