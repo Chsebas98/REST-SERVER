@@ -2,13 +2,13 @@
 	"name": "04-rest-server",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "app.js",
 	"scripts": {
 		"dev": "nodemon app.js",
 		"start": "node app.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Sebastián Soberón",
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
