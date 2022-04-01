@@ -51,7 +51,12 @@ const usuariosDelete = async (req, res) => {
 	//const usuario = await Usuario.findByIdAndDelete(id);
 	//cambiando estado
 
+	//LLamado desde el verificar token
+	//const uid = req.uid;
+
 	const usuario = await Usuario.findByIdAndUpdate(id, { estado: false });
+	//LLamado desde el verificar token
+	//const usuarioAuth = req.usuario;
 
 	res.status(403).json({ usuario });
 };
